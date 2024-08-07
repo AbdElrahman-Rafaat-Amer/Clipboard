@@ -70,33 +70,3 @@ struct ContentView: View {
         }
     }
 }
-
-
-//struct ContentView: View {
-//    @ObservedObject var clipboardManager: ClipboardManager
-//
-//    var body: some View {
-//        VStack {
-//            Text("Clipboard History")
-//                .font(.headline)
-//                .padding()
-//
-//            List(clipboardManager.history, id: \.self) { item in
-//                Button(action: {
-//                    clipboardManager.copyToClipboard(item)
-//                }) {
-//                    Text(item)
-//                        .lineLimit(1)
-//                        .truncationMode(.tail)
-//                        .padding(5)
-//                        .background(Color.gray.opacity(0.1))
-//                        .cornerRadius(5)
-//                }
-//                .buttonStyle(PlainButtonStyle()) // Removes default button styling
-//            }
-//            .listStyle(PlainListStyle()) // To make it look more like a list and less like a form
-//        }
-//        .padding()
-//    }
-//}
-

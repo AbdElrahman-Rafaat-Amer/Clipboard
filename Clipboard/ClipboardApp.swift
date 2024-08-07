@@ -25,24 +25,3 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         clipboardManager.startMonitoring()
     }
 }
-
-
-//@main
-//struct ClipboardApp: App {
-//    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-//
-//    var body: some Scene {
-//        WindowGroup {
-//            ContentView()
-//        }
-//    }
-//}
-//
-//class AppDelegate: NSObject, NSApplicationDelegate {
-//    var clipboardManager: ClipboardManager?
-//
-//    func applicationDidFinishLaunching(_ notification: Notification) {
-//        clipboardManager = ClipboardManager()
-//        clipboardManager?.startMonitoring()
-//    }
-//}
